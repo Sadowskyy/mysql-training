@@ -5,5 +5,3 @@ CREATE TABLE IF NOT EXISTS `accounts`(
    `name` VARCHAR(20) NOT NULL,
    `surname` VARCHAR(30)
 );
-
-DESCRIBE `accounts`;
