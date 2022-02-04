@@ -1,0 +1,8 @@
+USE `test_db`;
+CREATE TABLE IF NOT EXISTS `users`(
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(3) NOT NULL
+);
+ALTER TABLE `users`
+MODIFY COLUMN `name` VARCHAR(30);
+DESCRIBE `users`;
